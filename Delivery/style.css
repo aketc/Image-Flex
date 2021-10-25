@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: olivedrab;
+  color: rgba(red, green, blue, alpha);
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  font-family: "Festive", sans-serif;
+  margin: 0;
+}
+
+#btn {
+  background-color: rebeccapurple;
+  color: rgba(red, green, blue, alpha);
+  padding: 1rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px rgba(red, green, blue, alpha);
+  transition: transform 0.1s linear;
+}
